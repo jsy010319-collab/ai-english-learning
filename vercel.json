@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/api/scenarios",
+      "destination": "/api/scenarios"
+    },
+    {
+      "source": "/api/start",
+      "destination": "/api/start"
+    },
+    {
+      "source": "/api/reply",
+      "destination": "/api/reply"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/public/$1"
+    }
+  ]
+}
